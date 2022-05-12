@@ -63,4 +63,5 @@ a:active{
 .categories li{
     padding-bottom:8px;
     border-bottom:dotted 1px #333;
+    list-style-image: url('../images/checkmark.jpg');
 }
