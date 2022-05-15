@@ -73,7 +73,7 @@ a:active{
 }
 
 .my-form{
-    paddig:20px;
+    padding:20px;
 }
 
 .my.form .form.group{
@@ -81,7 +81,7 @@ a:active{
 }
 
 .my-form label{
-    display:block;
+    display: block;
 }
 
 .my-form input[type="text"], .my-form texterea{
@@ -95,4 +95,3 @@ a:active{
     padding:10px 15px;
     border:none;
 }
-]
