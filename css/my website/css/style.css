@@ -41,7 +41,7 @@ display:inline;
 #showcase{
     background-image:url('../images/showcase.jpg');
     background-position:centre right;
-    height:300px;
+    min-height:300px;
     margin-bottom:30px;
     text-align: centre
 
@@ -53,3 +53,31 @@ display:inline;
     padding-top: 30px;
 }
 
+#main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:rigt;
+    width:30%;
+    background: #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: centre;
+    margin-top:40px;
+
+}
+@media(max-width:600px){
+    main{
+        width:100%;
+        float:none;
+    }
+}
