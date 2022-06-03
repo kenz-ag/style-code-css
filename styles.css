@@ -46,6 +46,13 @@ li {
 
 }
 
+.row--logo {
+    width: 100%;
+    max-width: 200px;
+    margin 0 auto;
+    justify-content: left;
+}
+
 .text--purple {
     color: #8AA05F;
 }
@@ -96,7 +103,6 @@ nav {
 .personal__logo {
     font-size: 24px;
     color: #8AA05F;
-    margin: 0 12px;
     font-weight: bold;
 }
 
@@ -200,3 +206,14 @@ nav {
     width: 100%;
     flex-wrap: wrap;
 }
+
+.personal__logo--logo {
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    max-width: 100px;
+    display: flex;
+    align-items: left;
+    margin-top: 20px;
+}
+
