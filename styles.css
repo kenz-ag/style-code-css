@@ -9,7 +9,7 @@
 
 
 h1, h2, h3, h4, h5, h6, span {
-    color: #242424;
+    color: #061202b4;
     text-align: center;
     line-height: 1.25;
 }
@@ -43,7 +43,7 @@ li {
 }
 
 .text--purple {
-    color: #6030b1;
+    color: #8AA05F;
 }
 
 /* NAV */
@@ -71,19 +71,19 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #8AA05F;
     padding: 0 20px;
     border-radius: 50px;
     color: white;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #556c28;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #5d3eff;
+    color: #8AA05F;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -150,6 +150,7 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
+
 }
 
 .about-me__img {
