@@ -8,7 +8,8 @@
     <title>Document</title>
 
     <style>
-        .container-1 {
+        @media(min-width:468px;){
+            .container-1 {
             display: flex;
             /*
             align-items: flex-start;
@@ -20,9 +21,22 @@
 
         .container-2 {
             display:flex;
+            /*
+            justify-content: flex-start;
+            justify-content: flex-end;
+            justify-content: center;
+            justify-content: space-around;
+            */
+            justify-content: space-between;
+            }
+        }
+        
+        .container-3 {
+            display:flex;
+            flex-wrap: wrap;
         }
 
-        .container-1 div, .container-2 div {
+        .container-1 div, .container-2 div, .container-3 div {
             border: 1px black solid;
             Padding: 10px;
         }
@@ -40,7 +54,12 @@
         }
 
         .container-2-box {
-            width: 30%;
+            flex-basis: 27%;
+        }
+
+        .container-3-box {
+            flex-basis:12%;
+            justify-content: space-between;
         }
 
     </style>
@@ -85,7 +104,25 @@
                 
             </div>
 
-
+            <div class="container-3">
+                <div class="container-3-box">
+                    <h3> Box Four</h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quod ut esse, soluta magni incidunt
+                    doloremque nam rem commodi, illo, voluptate veniam dolor blanditiis adipisci quibusdam perspiciatis.
+                    
+                </div>
+                <div class="container-3-box">
+                    <h3>Box Five</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit ipsum totam dolor. Quasi, sapiente
+                    natus tempora aspernatur consectetur, similique in dolorem quae reprehenderit magni totam, illo veritatis
+                
+                </div>
+                <div class="container-3-box">
+                    <h3> Box Six</h3>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat aut officiis commodi. Accusantium vitae
+                    nihil, voluptate aperiam suscipit, at saepe, nostrum odio molestias sint iure nulla porro doloribus autem
+                    
+                </div>
 
     </div>
 
